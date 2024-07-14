@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 0px;
   max-width: 1200px;
   width: 100%;
 }
@@ -52,6 +52,7 @@
 .navbar-apply button {
   background-color: white;
   border: 2px solid darkorange;
+  /* Padding logic: clockwise */
   padding: 10px 20px;
   color: darkorange;
   font-size: 14px;

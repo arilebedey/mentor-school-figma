@@ -1,14 +1,13 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import "./App.css"; // Additional styles specific to App if needed
+import HeroSection from "./components/HeroSection";
 
 const App: React.FC = () => {
   return (
     <div>
       <Navbar />
-      <div className="main-container">
-        <div className="main-content">{/* Main content here */}</div>
-      </div>
+      <HeroSection />
     </div>
   );
 };

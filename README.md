@@ -5,3 +5,6 @@ https://github.com/arilebedey/mentor-school-figma
 https://chatgpt.com/c/26e2d26a-50ae-45b1-bd04-7ff4aab6b552
 
 http://localhost:5173/
+
+😌
+/_ outline: 3px solid plum; _/
