@@ -1,4 +1,4 @@
-![[Current work.png]]
+![[./Current work.png]]
 
 > Silicon folder is for screenshots
 
