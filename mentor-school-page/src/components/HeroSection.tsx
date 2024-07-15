@@ -30,10 +30,10 @@ const HeroSection: React.FC = () => {
           <div className="buttons">
             <button className="apply-button">ПОДАТЬ ЗАЯВКУ</button>
             <button className="apply-button">ПОДАТЬ ЗАЯВКУ</button>
-          </div>
-          <div className="play-button">
-            <img src={playButton} alt="Play Button" />
-            <span>Смотрите видео с награждения конкурса 2022 года</span>
+            <div className="play-button">
+              <img src={playButton} alt="Play Button" />
+              <span>Смотрите видео с награждения конкурса 2022 года</span>
+            </div>
           </div>
         </div>
         <img

@@ -1,3 +1,4 @@
+/* HeroSection.css */
 .hero-background {
   background-size: cover;
   background-position: center;
@@ -21,25 +22,33 @@
   /* outline: 3px solid plum; */
   max-width: 600px;
   color: #333;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .hero-content h1 {
   font-weight: bold;
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  color: #22374f;
+}
+
+.hero-content p {
+  /* outline: 3px solid plum; */
+  max-width: 600px;
+  color: #333;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .hero-content .hero-title {
   display: inline-block;
   font-size: 48px;
-  color: #0056b3;
 }
 
 .hero-content .hero-slogan {
   display: inline-block;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.1;
   margin-left: 20px;
 }
 
@@ -48,31 +57,59 @@
 }
 
 .buttons {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 20px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  align-items: center;
 }
 
 .apply-button {
-  background-color: orange;
-  border: none;
-  padding: 10px 20px;
+  grid-column: 1 / 2;
+  background-color: darkorange;
+  border: 6px solid white;
+  /* Padding logic: clockwise */
+  height: 60px;
+  width: 250px;
   color: white;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 700;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 30px;
+}
+
+.apply-button:first-child {
+  grid-row: 1 / 2; /* First button in the first row */
+}
+
+.apply-button:last-child {
+  grid-row: 2 / 3; /* Second button in the second row */
 }
 
 .apply-button:hover {
-  background-color: darkorange;
+  background-color: white;
+  border: 6px solid darkorange;
+  /* Padding logic: clockwise */
+  height: 60px;
+  width: 250px;
+  padding: 15px 30px;
+  color: darkorange;
+  font-size: 19px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: 700;
+  transition: 0.35s;
 }
 
 .play-button {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2; /* First button in the first row */
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 20px;
+  max-width: 180px;
+  /* margin-top: 20px; */
 }
 
 .play-button img {
