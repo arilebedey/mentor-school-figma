@@ -6,11 +6,11 @@ https://www.figma.com/design/l3lyICTpyhFnrC9O3O58Ww/%D0%BD%D0%B0%D1%81%D1%82%D0%
 
 ## Run the project
 
-maybe not? `npm install vite`
+`git clone git@github.com:arilebedey/mentor-school-figma.git`
 
-`cd mentor-school-page`
+`cd mentor-school-figma/mentor-school-page`
 
-`npm install`
+`npm install vite`
 
 `npm run dev`
 
