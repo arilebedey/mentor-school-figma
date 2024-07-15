@@ -1,5 +1,7 @@
 ![image](Current-work.png)
 
+## Disclaimer
+
 > Silicon folder is for screenshots
 
 ## The mockup
@@ -15,6 +17,8 @@ https://www.figma.com/design/l3lyICTpyhFnrC9O3O58Ww/%D0%BD%D0%B0%D1%81%D1%82%D0%
 `npm install vite`
 
 `npm run dev`
+
+## Notes
 
 https://github.com/arilebedey/mentor-school-figma
 
