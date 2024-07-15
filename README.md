@@ -1,3 +1,5 @@
+![[Current work.png]]
+
 > Silicon folder is for screenshots
 
 ## The mockup
