@@ -1,4 +1,5 @@
 /* HeroSection.css */
+
 .hero-background {
   background-size: cover;
   background-position: center;
@@ -29,13 +30,13 @@
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 10px;
-  color: #22374f;
+  color: var(--primary-color);
 }
 
 .hero-content p {
   /* outline: 3px solid plum; */
   max-width: 600px;
-  color: #333;
+  color: var(--secondary-color);
   padding-top: 30px;
   padding-bottom: 30px;
 }

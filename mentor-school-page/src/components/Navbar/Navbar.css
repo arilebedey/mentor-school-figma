@@ -1,7 +1,9 @@
+/* Navbar.css */
+
 .navbar-container {
   display: flex;
   width: 100%;
-  background-color: white;
+  background-color: var(--background-color);
   justify-content: center;
 }
 

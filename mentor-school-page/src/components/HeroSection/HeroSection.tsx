@@ -1,8 +1,8 @@
 import React from "react";
-import "@styles/HeroSection.css";
-import background from "@assets/HeroSection/background.png";
-import playButton from "@assets/HeroSection/play-button.png";
-import manOnMountain from "@assets/HeroSection/man-on-mountain.png";
+import "./HeroSection.css";
+import background from "./background.png";
+import playButton from "./play-button.png";
+import manOnMountain from "./man-on-mountain.png";
 
 const HeroSection: React.FC = () => {
   return (
