@@ -28,11 +28,22 @@ const HeroSection: React.FC = () => {
             грантовому конкурсу и повысят шансы на победу.
           </p>
           <div className="buttons">
-            <button className="apply-button">ПОДАТЬ ЗАЯВКУ</button>
-            <button className="apply-button">ПОДАТЬ ЗАЯВКУ</button>
-            <div className="play-button">
-              <img src={playButton} alt="Play Button" />
-              <span>Смотрите видео с награждения конкурса 2022 года</span>
+            <div className="orange-buttons">
+              <button className="apply-button">ПОДАТЬ ЗАЯВКУ</button>
+              <button className="apply-button">ПОДАТЬ ЗАЯВКУ</button>
+            </div>
+            <div className="watch-section">
+              <img
+                src={playButton}
+                alt="Play Button"
+                className="watch-button"
+              />
+              <span className="watch-text">
+                Смотрите видео
+                <br />с награждения
+                <br />
+                конкурса 2022 года
+              </span>
             </div>
           </div>
         </div>

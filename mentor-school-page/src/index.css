@@ -2,9 +2,12 @@
 
 /* Define root variables and default styles */
 :root {
-  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-family: Gotham, Helvetica, Arial, sans-serif, Vedana;
   line-height: 1.5;
   font-weight: 400;
+
+  --column-width: 70px;
+  --gutter-width: 20px;
 }
 
 * {

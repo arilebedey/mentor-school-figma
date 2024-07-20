@@ -5,7 +5,7 @@ import HeroSection from "@components/HeroSection/HeroSection";
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className="grid-container">
       <Navbar />
       <HeroSection />
     </div>

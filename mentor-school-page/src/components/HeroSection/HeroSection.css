@@ -4,23 +4,24 @@
   background-size: cover;
   background-position: center;
   padding-top: 40px;
-  /* padding: 0px 0; */
   position: relative;
   width: 100%;
 }
 
 .hero-section {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0px 0px;
+  padding: 0px 50px 0px 50px;
   position: relative;
 }
 
 .hero-content {
   /* outline: 3px solid plum; */
+  margin-top: 20px;
   max-width: 600px;
   color: #333;
   padding-bottom: 60px;
@@ -29,7 +30,6 @@
 .hero-content h1 {
   font-weight: bold;
   line-height: 1.2;
-  margin-bottom: 10px;
   color: var(--primary-color);
 }
 
@@ -37,8 +37,8 @@
   /* outline: 3px solid plum; */
   max-width: 600px;
   color: var(--secondary-color);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .hero-content .hero-title {
@@ -54,20 +54,23 @@
 }
 
 .hero-content .hero-slogan span {
-  display: block;
+  display: flex;
 }
 
 .buttons {
-  /* display: flex; */
-  /* flex-direction: column; */
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.orange-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .apply-button {
-  grid-column: 1 / 2;
   background-color: darkorange;
   border: 6px solid white;
   /* Padding logic: clockwise */
@@ -78,14 +81,7 @@
   font-weight: 700;
   cursor: pointer;
   border-radius: 30px;
-}
-
-.apply-button:first-child {
-  grid-row: 1 / 2; /* First button in the first row */
-}
-
-.apply-button:last-child {
-  grid-row: 2 / 3; /* Second button in the second row */
+  box-sizing: border-box;
 }
 
 .apply-button:hover {
@@ -101,21 +97,27 @@
   border-radius: 30px;
   font-weight: 700;
   transition: 0.35s;
+  box-sizing: border-box;
 }
 
-.play-button {
-  grid-column: 2 / 3;
-  grid-row: 1 / 2; /* First button in the first row */
+.watch-section {
   display: flex;
   align-items: center;
-  gap: 10px;
-  max-width: 180px;
-  /* margin-top: 20px; */
+  /* gap: 10px; */
+  /* padding: 6px; */
+  margin-left: 25px;
 }
 
-.play-button img {
-  height: 40px;
+.watch-button {
+  height: 50px;
   cursor: pointer;
+}
+
+.watch-text {
+  margin-left: 20px;
+  line-height: 1.25;
+  font-style: italic;
+  /* outline: 3px solid plum; */
 }
 
 .man-on-mountain {
